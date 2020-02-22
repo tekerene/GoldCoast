@@ -1,0 +1,91 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+    h1, h2, h3, h4, h5,
+.h1, .h2, .h3, .h4, .h5 {
+  font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; 
+
+
+}
+ .header-coast{
+   color: white; 
+   margin-left: 200px;
+}
+/**** navbar start ****/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+.navbar-brand {
+    color: white !important;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: inherit;
+    font-size: 2rem;
+}
+.nav-link {
+    color: pink !important;
+    font-weight: 700;
+    font-size: 18px;
+}
+.nav-link:hover {
+    color: lawngreen !important;
+}
+/**** navbar stop ****/
+
+/* header */
+.head-top {
+    list-style-type: none;
+  background-color: grey !important;
+ padding: 5px;
+   
+}
+.header-info li i {
+    color: black;
+    font-weight: 700;
+    font-size: large;
+} 
+.header-info li i:hover {
+    color: white;
+    background-color: black;
+    font-size: 35px;
+}
+.header-info{
+margin-left: auto;
+ 
+}
+.bg-dark {
+    color: black;
+}
+.header-links {
+margin-left: auto;
+}
+ .header-links a i {
+color: black;
+padding: 10px;
+background-color: deepskyblue;
+font-weight: 700;
+font-size: 25px;
+}
+.header-links a i:hover {
+    color: white;
+    font-size: 35px;
+    background-color: skyblue;
+}
+/* clip path // hope page image */
+.clip-path {
+    min-width: 100vw;
+   height: 100vh;
+    background-image: url('images/course_1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: center;
+    -wibkit-clip-path:polygon(100% 0,100% 100%, 76% 79%, 0 98%, 1% 0, 33% 27%);
+    clip-path: polygon(100% 0, 100% 100%, 76% 79%, 0 98%, 1% 0, 33% 27%);
+}

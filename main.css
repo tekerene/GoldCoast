@@ -80,12 +80,86 @@ font-size: 25px;
 /* clip path // hope page image */
 .clip-path {
     min-width: 100vw;
-   height: 100vh;
-    background-image: url('images/course_1.jpg');
+   height: 90vh;
+    background-image: url('images/a.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: center;
     -wibkit-clip-path:polygon(100% 0,100% 100%, 76% 79%, 0 98%, 1% 0, 33% 27%);
     clip-path: polygon(100% 0, 100% 100%, 76% 79%, 0 98%, 1% 0, 33% 27%);
+}
+.home-banner {
+    min-width: 100vh;
+    min-height: 80vh;
+    justify-content:center ;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* margin-top: 200px; */
+
+}
+.banner-paragragh {
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+
+/* ball */
+
+
+/* @keyframes slide {
+    0% {
+        left: 0;
+        top: 0;
+    }
+    50% {
+        left: 244px;
+        top: 100px;
+    }
+    100% {
+        left: 480px;
+        top: 0;
+    }
+}
+.stage {
+background: #eaeaed;
+border-radius: 6px;
+height: 150px;
+position: relative;
+width: 538px;
+}
+.stage .ball {
+    animation-name: slide;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-delay: .9s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+   }
+   .ball {
+       background: #0b3313;
+       border-radius: 50%;
+       height: 50px;
+       position: absolute;
+       width: 50px;
+   }
+   .stages:hover .balls {
+    animation-name: slide;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: .5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+ animation-fill-mode: forwards;
+}
+.stages:active .balls {
+    animation-play-state: paused;
+} */
+
+/* cards images */
+.card img {
+    width: 100%;
+    height: 200px;
 }

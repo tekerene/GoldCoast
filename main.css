@@ -163,3 +163,11 @@ width: 538px;
     width: 100%;
     height: 200px;
 }
+/* carousel */
+.carousel-item {
+    min-width: auto;
+    min-height: auto;
+}
+.carousel-caption {
+    color: white;
+}

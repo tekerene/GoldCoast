@@ -81,7 +81,8 @@ font-size: 25px;
 .clip-path {
     min-width: 100vw;
    height: 90vh;
-    background-image: url('images/a.jpg');
+   /* background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url(..//images/slider.jpg); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0,0,0,0.5)), url('images/goldCoast1.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -92,10 +93,11 @@ font-size: 25px;
 .home-banner {
     min-width: 100vh;
     min-height: 80vh;
-    justify-content:center ;
+    justify-content: center;
     display: flex;
     align-items: center;
     text-align: center;
+    position: relative;
     /* margin-top: 200px; */
 
 }
@@ -103,13 +105,16 @@ font-size: 25px;
     color: white;
     font-size: 30px;
     font-weight: 800;
+    position: absolute;
+    right: auto;
+    left: auto;
 }
-@media screen (min-width: 600px) {
+/* @media screen (min-width: 600px) {
 .banner-paragragh {
-    width: 100%;
+    min-width: 100% auto;
     
 }
-}
+} */
 
 /* ball */
 
